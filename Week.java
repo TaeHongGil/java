@@ -76,5 +76,4 @@ public class Week {
 a	b	result
 5	24	TUE
 
-수정 test
 */
