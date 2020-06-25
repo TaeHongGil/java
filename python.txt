@@ -1,0 +1,48 @@
+from itertools import permutations,combinations
+순열 조합
+
+
+    prime=[True]*(int(max))
+    m=int(max)**0.5)
+    for i in range(2, m + 1):
+        if prime[i] == True:  # i가 소수인 경우
+            for j in range(i + i, (max), i):  # i이후 i의 배수들을 False 판정
+                prime[j] = False
+에라토스테네스의 체
+
+
+
+lambda 함수 > 익명함수-쓰고버림
+lambda 인수1, 인수2, ... : 인수를 이용한 표현식
+
+
+
+Input : li = [1, 2, 3]
+Output : result = [1, 4, 9]
+
+풀이
+result = list(map(lambda i: i ** 2 , li))
+map(함수,리스트) > 리스트 값에 함수적용
+
+
+import heapq
+힙정렬
+
+
+list(set(asd ))>asd리스트의 중복제거
+s1 & s2 교집합
+s1 | s2  합집합
+s1 - s2 차집합
+
+
+for i, v in enumerate(t):  enumerate("재미있는 파이썬")
+	print("index : {}, value: {}".format(i,v))       >인덱스번호와 값 출력
+
+index : 0, value: 재 				
+index : 1, value: 미
+index : 2, value: 있
+index : 3, value: 는
+index : 4, value: 
+index : 5, value: 파
+...
+
