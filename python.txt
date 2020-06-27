@@ -46,3 +46,25 @@ index : 4, value:
 index : 5, value: 파
 ...
 
+check in num     num안에 check가있으면 true
+
+
+from collections import Counter
+
+
+cnt = Counter([i[1] for i in clothes])
+print(cnt.values(),cnt.keys())
+>>dict_values([2, 1, 1]) dict_keys(['a', 'b', 'c'])
+
+>> answer = reduce(lambda x, y: x*(y+1), cnt.values(),1)   초기값 1에 cnt값(y)를쭉~계산
+
+
+from functools import reduce
+reduce(lambda x, y: x + y, [0, 1, 2, 3, 4])
+0~4더함
+
+
+filter(lambda x: x < 5, range(10))
+[0, 1, 2, 3, 4]  
+
+
