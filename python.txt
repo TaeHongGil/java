@@ -11,15 +11,8 @@ from itertools import permutations,combinations
 에라토스테네스의 체
 
 
-
-lambda 함수 > 익명함수-쓰고버림
-lambda 인수1, 인수2, ... : 인수를 이용한 표현식
-
-
-
 Input : li = [1, 2, 3]
 Output : result = [1, 4, 9]
-
 풀이
 result = list(map(lambda i: i ** 2 , li))
 map(함수,리스트) > 리스트 값에 함수적용
@@ -101,3 +94,13 @@ findall()	정규식과 매치되는 모든 문자열(substring)을 리스트로 
 finditer()	정규식과 매치되는 모든 문자열(substring)을 반복 가능한 객체로 돌려준다.
 
 
+>>> format(42, 'b')
+'101010'
+>>> format(42, 'o')
+'52'
+>>> format(42, 'x')
+'2a'
+>>> format(42, 'X')
+'2A'
+>>> format(42, 'd')
+'42'
