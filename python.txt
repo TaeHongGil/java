@@ -93,6 +93,8 @@ search()	문자열 전체를 검색하여 정규식과 매치되는지 조사한
 findall()	정규식과 매치되는 모든 문자열(substring)을 리스트로 돌려준다.
 finditer()	정규식과 매치되는 모든 문자열(substring)을 반복 가능한 객체로 돌려준다.
 
+>>문자열에서 뽑아낼때 (정렬할때)
+
 
 >>> format(42, 'b')
 '101010'
@@ -129,3 +131,6 @@ name[i[1]]=i[2]
 오픈채팅방 참고
 
 
+ord("A") >번호
+import string
+list(string.ascii_uppercase)>대문자알파벳리스트
